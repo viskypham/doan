@@ -1,0 +1,645 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Jost, sans-serif;
+}
+
+.head{
+    height: 42px;
+    width: 1500PX;
+    font-size: 13px;
+    line-height: 42px;
+    display: flex;
+}
+
+.head p{
+    margin: 0px 130px;
+    font-weight: bolder;
+}
+.head p a{
+    color: orangered;
+}
+
+.head>ul{
+    margin: 0px 0px 0px 370px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.head>ul>li{
+    margin-right: 40px;
+}
+
+.head ul li a{
+    text-decoration-line: none;
+    color:black;
+    height: 100%;
+}
+
+.headsan1{
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    min-width: 240px;
+    position: absolute;
+    top:40px;
+    left: 980px;
+    line-height: 46px;
+}
+
+.headsan1>ul{
+    width: 500px;
+}
+
+.headsan1>li{
+    list-style: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.head li:hover .headsan1{
+    color: black;
+    display: block;
+}
+
+.headsan2{
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    min-width: 240px;
+    position: absolute;
+    top:40px;
+    left:1075px;
+}
+
+.headsan2>ul{
+    width: 500px;
+}
+
+.headsan2>li{
+    list-style: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.head li:hover .headsan2{
+    color: black;
+    display: block;
+}
+
+.underbackhead{
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    display: flex;
+}
+
+.under1{
+    height: 100%;
+    width: 913px;
+    line-height: 90px;
+    display: flex;
+    margin-left: 125px;
+    padding: 0px 12px;
+}
+
+.under1 img{
+    margin: 28px 0px;
+}
+
+.under1>ul {
+    display: flex;
+}
+
+.under1 ul li {
+    list-style: none;
+    margin-left:40px;
+}
+
+.under1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.under1 .under1sun {
+    position: absolute;
+    background-color: #fff;
+    font-size: 15px;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.under1 .under1sun{
+    height: 319px;
+    width: 1260px;
+    margin: 0;
+    padding: 20px;
+    top: auto;
+    left: 120px;
+    line-height: 40px;
+}
+
+.under1 .under1sun li{
+    height:40px;
+}
+
+.under1 .under1sun li a{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.under1 li:hover .under1sun{
+    display: block;
+}
+
+.under1sun1>li>h4{
+    color: rgb(235, 119, 0);
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.under1sun1>.likeole{
+    margin-left: 140px;
+}
+
+.under2{
+    margin-left: 200px;
+    height: 100%;
+}
+
+.under2 ul{
+    display: flex;
+}
+
+.under2 ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.under2 ul li a {
+    height: 22px;
+    width: 24px;
+    font-size: 20px;
+    color: black;
+}
+
+.midblog{
+    width: 100%;
+    height: 3044px;
+}
+
+.midbloglon{
+    width: 100%;
+    margin-top: 60px;
+    height: 2984px;
+}
+
+.midblogchinh{
+    margin-left: 115px;
+    width: 1260px;
+    height: 2984px;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1{
+    margin-bottom: 50px;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 img{
+    margin-bottom: 30px;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 .tieudeptu1{
+    margin-bottom: 30px;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 .tieudeptu1 a{
+    font-size: 14px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 h2{
+    margin-bottom: 15px;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 h2 a{
+    font-size: 36px;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-weight: 500;
+    transition-delay: 0.3s;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 h2 a:hover{
+    color: #eb7700;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 26px;
+    line-height: 24px;
+}
+
+.midblogchinh .khoilon1midblog .ptu1khoilon1>a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.khoilon1midblog{
+    height: 2984px;
+    width: 921px;
+    padding: 0px 30px 0px 12px;
+}
+
+.end{
+    height: 168px;
+    width: 100%;
+    margin-top:150px;
+}
+
+.end .ptuend{
+    height: 168px;
+    width: 1260px;
+    padding: 15px;
+    margin-left: 115px;
+    border-top: solid 1px;
+    border-color: rgb(229, 229, 229);
+    display: flex;
+}
+
+.end .ptuend .icon1{
+    font-size: 56px;
+    height: 56px;
+    width: 86px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.end .ptuend .tieudeicon1 {
+    width: 230px;
+    height: 67px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.end .ptuend .tieudeicon1 h4{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: black;
+}
+
+.end .ptuend .tieudeicon1 p{
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: rgb(138, 139, 142);
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.end .ptuend .icon2{
+    font-size: 56px;
+    height: 56px;
+    width: 86px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+.end .ptuend .tieudeicon2 {
+    width: 230px;
+    height: 67px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.end .ptuend .tieudeicon2 h4{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: black;
+}
+
+.end .ptuend .tieudeicon2 p {
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: rgb(138, 139, 142);
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.end .ptuend .icon3{
+    font-size: 56px;
+    height: 56px;
+    width: 86px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+.end .ptuend .tieudeicon3 {
+    width: 230px;
+    height: 67px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.end .ptuend .tieudeicon3 h4{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: black;
+}
+
+.end .ptuend .tieudeicon3 p {
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: rgb(138, 139, 142);
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.backend1{
+    width: 100%;
+    height: 326px;
+    background-color: rgb(250, 248, 244);
+    margin-top: 50px;
+}
+
+.backend1 .khoi1backend1{
+    height: 326px;
+    width: 1260px;
+    box-sizing: border-box;
+    margin-left: 130px;
+    display: flex;
+}
+
+.backend1 .khoi1backend1 .khoinho1be1{
+    height: 166px;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.backend1 .khoi1backend1 .khoinho1be1 h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: rgb(235, 119, 0);
+    margin-bottom: 15px;
+}
+
+.backend1 .khoi1backend1 .khoinho1be1 h3{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.backend1 .khoi1backend1 .khoinho1be1 p{
+    color: rgb(138, 139, 142);
+}
+
+.backend1 .khoi1backend1 .khoinho2be1{
+    height: 166px;
+    width: 510px;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.backend1 .khoi1backend1 .khoinho2be1 .nhapinput{
+    display: flex;
+}
+
+.backend1 .khoi1backend1 .khoinho2be1 .nhapinput button{
+    width: 39px;
+    height: 39px;
+    font-size: 18px;
+    border: 3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    cursor: grab;
+    background-color: transparent;
+}
+
+input[type=email] {
+    width: 480px;
+    height: 20px;
+    padding: 8px 30px 8px 0px;
+    border: 3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    font-size: 15px;
+    color: rgb(138, 139, 142);
+    outline-style: none;
+}
+
+.tieudekhoinho2be1{
+    font-size: 13px;
+    display: flex;
+    margin: 15px 0px 16px 0px;
+}
+
+.tieudekhoinho2be1 p{
+    color: rgb(138, 139, 142);
+}
+
+.tieudekhoinho2be1 a{
+    text-decoration: none;
+    color: black;
+    transition-delay: 0.3s;
+}
+
+.tieudekhoinho2be1 a:hover{
+    color: #eb7700;
+}
+
+.backend2{
+    height: 122px;
+    width: 100%;
+}
+
+.khoidinhdang{
+    height: 42px;
+    width: 1260px;
+    display: flex;
+    padding: 40px 0px 40px 0px;
+    margin-left: 130px;
+}
+
+.ptu1backend2{
+    line-height: 42px;
+    margin-right: 280px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 270px;
+}
+
+.ptu2backend2{
+    display: flex;
+    line-height: 42px;
+    font-size: 14.5px;
+    font-weight: 400;
+}
+
+.backend3{
+    width: 100%;
+    height: 294px;
+}
+
+.ptuchinhbe3{
+    width: 1260px;
+    height: 194px;
+    padding: 50px 0px 50px 0px;
+    margin-left: 130px;
+    border-top: 1px solid rgb(229, 229, 229);
+    display: flex;
+}
+
+.ptu1backend3{
+    width: 297px;
+    height: 194px;
+    padding: 0px 12px 0px 12px;
+}
+
+.ptu1backend3 h4{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.ptu1backend3 p{
+    margin-bottom: 16px;
+    color:rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.ptu1backend3 a{
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+}
+
+.ptu2backend3{
+    width: 939px;
+    height: 193px;
+    padding: 0px 12px 0px 12px;
+}
+
+.trongptu2be3{
+    margin-left: 100px;
+    width: 839px;
+    height: 193px;
+    display: flex;
+}
+
+.khoiptu2be3{
+    width: 287px;
+    height:193px;
+    padding: 0px 12px 0px 12px;
+}
+
+.khoiptu2be3 ul li{
+    list-style: none;
+}
+
+.khoiptu2be3 h4{
+    margin-bottom: 25px;
+}
+
+.khoiptu2be3 ul li a{
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.phancuoi{
+    height: 168px;
+    width: 100%;
+}
+
+.ptuphancuoi{
+    height: 168px;
+    width: 1260px;
+    margin-left: 130px;
+    border-top: 1px solid rgb(229, 229, 229);
+}
+
+.khoichinhphancuoi{
+    width: 1260px;
+    height: 43px;
+    padding: 44px 0px 80px 0px;
+    display: flex;
+}
+
+.phancuoi1{
+    width: 144px;
+    height: 43px;
+}
+
+.phancuoi2{
+    height: 46px;
+    width: 484px;
+    margin-left: 40px;
+}
+
+.phancuoi2 p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 46px;
+}
+
+.phancuoi2 ul{
+    display: flex;
+    font-size: 20px;
+}
+
+.phancuoi2 ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.phancuoi2 ul li a{
+    color: rgb(115, 115, 115);
+}
+
+.phancuoi3{
+    height: 46px;
+    width: 390px;
+    margin-left: 120px;
+}
+
+.phancuoi3 ul{
+    display: flex;
+}
+
+.phancuoi3 ul li{
+    list-style: none;
+    margin-left: 5px;
+}
+
+.phancuoi3 ul li a{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    line-height: 46px;
+}

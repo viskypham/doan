@@ -1,0 +1,93 @@
+
+
+.column1_login {
+    margin-top: 50px;
+    margin-left: 135px;
+}
+
+.usernameform {
+    margin: 23px 0 15px 0;
+}
+
+.usernameinput {
+    height: 30px;
+    width: 550px;
+}
+
+.passwordinput {
+    height: 30px;
+    width: 550px;
+}
+
+.passwordform {
+    margin-bottom: 15px;
+}
+
+.remembermeform {
+    margin-bottom: 18px;
+}
+
+.loginbutton {
+    margin-bottom: 15px;
+}
+
+.loginsubmit {
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb7700;
+    color: white;
+    font-weight: 700;
+}
+
+.lostyourpassword {
+    color: #eb7700;
+    text-decoration: none;
+}
+
+.column2_register {
+    position: absolute;
+    top: 183px;
+    left: 750px;
+}
+
+.usernameregister {
+    margin: 23px 0 15px 0;
+}
+
+.usernameinput1 {
+    height: 30px;
+    width: 625px;
+}
+
+.emailaddress {
+    height: 30px;
+    width: 625px;
+}
+
+.emailregister {
+    margin-bottom: 15px;
+}
+
+.passwordinput1 {
+    height: 30px;
+    width: 625px;
+}
+
+.textnote {
+    width: 500px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.registersubmit {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb7700;
+    color: white;
+    font-weight: 700;
+}
+
